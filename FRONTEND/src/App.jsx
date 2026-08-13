@@ -25,7 +25,7 @@ function App() {
     try {
       // Send question to deployed ML model
       const response = await fetch(
-        "http://localhost:8000/ask",
+        "https://askmynotes-backend-qqa0.onrender.com/ask",
         {
           method: "POST",
 
